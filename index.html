@@ -11,7 +11,25 @@ margin:0;
 background:black;
 font-family:sans-serif;
 }
+/* Encabezado */
+  .encabezado{
+text-align:center;
+color:white;
+padding:40px 20px 30px 20px;
+}
 
+.encabezado h1{
+margin:0;
+font-size:36px;
+font-weight:600;
+}
+
+.encabezado p{
+margin-top:10px;
+font-size:18px;
+opacity:0.8;
+}
+  
 /* COLLAGE */
 
 .galeria{
@@ -20,7 +38,7 @@ column-gap:0;
 }
 
 .galeria img{
-width:63%;
+width:49%;
 padding:2px;
 cursor:pointer;
 transition:0.3s;
@@ -83,6 +101,11 @@ musica.play().catch(()=>{})
 
 document.body.addEventListener("click", iniciarMusica, {once:true})
 
+<header class="encabezado">
+<h1>Felíz 6 meses de relación mi iguanita hermosa 🦎💚</h1>
+<p>Aquí algunos momentos vividos captados en imagen</p>
+</header>
+  
 const galeria = document.getElementById("galeria")
 
 const imagenes = [
